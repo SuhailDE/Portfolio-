@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Zap, Server, Database, CheckCircle, FileText, Mail, MapPin, Rocket, BookOpen } from 'lucide-react';
+import { Layers, Zap, Server, Database, CheckCircle, FileText, Mail, MapPin, Rocket, BookOpen, Download } from 'lucide-react';
 
 interface AboutProps {
   onContactClick: () => void;
@@ -144,21 +144,32 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
               </div>
             </div>
 
-            <div className="pt-6 flex flex-col sm:flex-row gap-3">
-              <button
-                onClick={onContactClick}
-                className="flex-1 py-2.5 px-4 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors shadow-md shadow-cyan-500/20"
+            <div className="pt-6 flex flex-col gap-2.5">
+              <div className="flex flex-col sm:flex-row gap-3">
+                <button
+                  onClick={onContactClick}
+                  className="flex-1 py-2.5 px-4 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors shadow-md shadow-cyan-500/20"
+                >
+                  <Mail className="w-4 h-4" />
+                  <span>Get in Touch</span>
+                </button>
+                <button
+                  onClick={onViewProjects}
+                  className="py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors"
+                >
+                  <FileText className="w-4 h-4" />
+                  <span>View Projects</span>
+                </button>
+              </div>
+
+              <a
+                href="/suhail-mern-portfolio.zip"
+                download="suhail-mern-portfolio.zip"
+                className="w-full py-2.5 px-4 rounded-xl bg-slate-950 hover:bg-slate-900 border border-cyan-500/30 text-cyan-400 hover:text-cyan-300 text-xs font-semibold flex items-center justify-center gap-2 transition-colors"
               >
-                <Mail className="w-4 h-4" />
-                <span>Get in Touch</span>
-              </button>
-              <button
-                onClick={onViewProjects}
-                className="py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors"
-              >
-                <FileText className="w-4 h-4" />
-                <span>View My Projects</span>
-              </button>
+                <Download className="w-4 h-4" />
+                <span>Download Source Code (.ZIP)</span>
+              </a>
             </div>
           </div>
         </div>

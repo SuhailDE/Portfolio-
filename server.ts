@@ -172,6 +172,12 @@ async function startServer() {
     }
   });
 
+  // Download project files zip archive
+  app.get('/api/download', (_req: Request, res: Response) => {
+    const zipPath = path.resolve(__dirname, 'public', 'suhail-mern-portfolio.zip');
+    res.download(zipPath, 'suhail-mern-portfolio.zip');
+  });
+
   // 7. Interactive MongoDB Playground query
   app.post('/api/mongo/query', async (req: Request, res: Response) => {
     try {

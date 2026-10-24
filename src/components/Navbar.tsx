@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ArrowUpRight, Database, CheckCircle2 } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Database, CheckCircle2, Download } from 'lucide-react';
 import { ServerStatus } from '../types/portfolio';
 
 interface NavbarProps {
@@ -141,6 +141,16 @@ export const Navbar: React.FC<NavbarProps> = ({ serverStatus, onOpenInbox, unrea
           </button>
 
           <a
+            href="/suhail-mern-portfolio.zip"
+            download="suhail-mern-portfolio.zip"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-300 hover:text-white bg-slate-900/80 hover:bg-slate-800 border border-slate-800 rounded-xl transition-all whitespace-nowrap shrink-0"
+            title="Download full project source code (.zip)"
+          >
+            <Download className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Download ZIP</span>
+          </a>
+
+          <a
             href="#contact"
             onClick={(e) => {
               e.preventDefault();
@@ -186,11 +196,15 @@ export const Navbar: React.FC<NavbarProps> = ({ serverStatus, onOpenInbox, unrea
             ))}
           </div>
 
-          <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between">
-            <span className="text-xs text-slate-400 flex items-center gap-1.5 font-mono">
-              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-              Node.js + MongoDB Live
-            </span>
+          <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between gap-3">
+            <a
+              href="/suhail-mern-portfolio.zip"
+              download="suhail-mern-portfolio.zip"
+              className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-slate-200 bg-slate-900 border border-slate-700 rounded-xl"
+            >
+              <Download className="w-3.5 h-3.5 text-cyan-400" />
+              <span>Download ZIP</span>
+            </a>
             <a
               href="#contact"
               onClick={(e) => {
