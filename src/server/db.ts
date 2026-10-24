@@ -147,49 +147,47 @@ const initialSkills: SkillCategory[] = [
     title: 'Frontend Development',
     description: 'Engineering responsive, accessible, high-performance user interfaces with clean architecture.',
     skills: [
-      { name: 'React.js (18 / 19)', level: 95, experience: '3+ years', highlight: true, description: 'Hooks, Suspense, Context, Custom Hooks, Performance Profiling' },
-      { name: 'Tailwind CSS', level: 98, experience: '3+ years', highlight: true, description: 'Modern responsive utility-first design, dark mode, animations' },
-      { name: 'JavaScript (ES6+)', level: 96, experience: '4+ years', highlight: true, description: 'Async/Await, Closures, Event Loop, DOM API, Functional Patterns' },
-      { name: 'TypeScript', level: 90, experience: '2+ years', highlight: true, description: 'Generics, Strict type-checking, Utility types, Interfaces' },
-      { name: 'HTML5 & Modern CSS3', level: 98, experience: '4+ years', highlight: false, description: 'Semantic markup, Flexbox, Grid, CSS Variables, SVG' },
-      { name: 'Redux Toolkit / Zustand', level: 88, experience: '2+ years', highlight: false, description: 'Global state management, RTK Query, slices, devtools' },
-      { name: 'Next.js (App Router)', level: 85, experience: '2+ years', highlight: false, description: 'SSR, SSG, Server Components, Route Handlers' }
+      { name: 'React.js (18 / 19)', level: 90, experience: 'Core Focus', highlight: true, description: 'Hooks, Suspense, Context, Custom Hooks, Functional Components' },
+      { name: 'Tailwind CSS', level: 95, experience: 'Proficient', highlight: true, description: 'Modern responsive utility-first design, dark mode, custom styling' },
+      { name: 'JavaScript (ES6+)', level: 92, experience: 'Strong Foundation', highlight: true, description: 'Async/Await, Closures, Event Loop, DOM API, Functional Patterns' },
+      { name: 'TypeScript', level: 85, experience: 'Hands-on Projects', highlight: true, description: 'Generics, Strict type-checking, Utility types, Interfaces' },
+      { name: 'HTML5 & Modern CSS3', level: 95, experience: 'Proficient', highlight: false, description: 'Semantic markup, Flexbox, Grid, CSS Variables, SVG' },
+      { name: 'Redux Toolkit / Context', level: 84, experience: 'Practical Application', highlight: false, description: 'Global state management, slices, store dispatching' },
+      { name: 'Next.js (App Router)', level: 80, experience: 'Continuous Learning', highlight: false, description: 'SSR, Server Components, Route Handlers' }
     ]
   },
   {
     title: 'Backend Engineering',
     description: 'Building secure, scalable, event-driven RESTful APIs and server architectures.',
     skills: [
-      { name: 'Node.js', level: 94, experience: '3+ years', highlight: true, description: 'Event-driven I/O, File System, Streams, Buffer, Process handling' },
-      { name: 'Express.js', level: 96, experience: '3+ years', highlight: true, description: 'Middleware chaining, routing, error handling, rate limiting, CORS' },
-      { name: 'RESTful API Design', level: 95, experience: '3+ years', highlight: true, description: 'Status codes, URI design, versioning, pagination, caching' },
-      { name: 'Authentication & Security', level: 92, experience: '3+ years', highlight: true, description: 'JWT tokens, Bcrypt password hashing, OAuth2, HttpOnly cookies' },
-      { name: 'WebSockets & Socket.io', level: 86, experience: '2+ years', highlight: false, description: 'Real-time bidirectional events, chat, live notifications' },
-      { name: 'Microservices & MVC', level: 85, experience: '2+ years', highlight: false, description: 'Separation of concerns: Controllers, Services, Models' }
+      { name: 'Node.js', level: 88, experience: 'Core Focus', highlight: true, description: 'Event-driven I/O, File System, Streams, Modules, npm ecosystem' },
+      { name: 'Express.js', level: 90, experience: 'Proficient', highlight: true, description: 'Middleware chaining, routing, error handling, CORS, status codes' },
+      { name: 'RESTful API Design', level: 92, experience: 'Proficient', highlight: true, description: 'HTTP methods, URI conventions, JSON formatting, validation' },
+      { name: 'Authentication & Security', level: 86, experience: 'Hands-on Projects', highlight: true, description: 'JWT tokens, Bcrypt password hashing, protected routes' },
+      { name: 'WebSockets', level: 80, experience: 'Practical Application', highlight: false, description: 'Real-time bidirectional event listeners and chat' },
+      { name: 'MVC Architecture', level: 85, experience: 'Strong Foundation', highlight: false, description: 'Separation of concerns: Controllers, Routes, Models' }
     ]
   },
   {
     title: 'Databases & Storage',
     description: 'Designing normalized & denormalized schemas, query optimization, and transaction handling.',
     skills: [
-      { name: 'MongoDB', level: 95, experience: '3+ years', highlight: true, description: 'NoSQL architecture, BSON document modeling, indexes, Replica Sets' },
-      { name: 'Mongoose ODM', level: 94, experience: '3+ years', highlight: true, description: 'Schemas, virtuals, hooks/middleware, population, validation' },
-      { name: 'Aggregation Pipelines', level: 92, experience: '3+ years', highlight: true, description: '$match, $group, $lookup, $facet, $project, complex data transformations' },
-      { name: 'MongoDB Atlas', level: 90, experience: '3+ years', highlight: false, description: 'Cloud clusters, automated backups, network security, IP whitelisting' },
-      { name: 'PostgreSQL / SQL', level: 80, experience: '2+ years', highlight: false, description: 'Relational schema design, JOINs, ACID transactions' },
-      { name: 'Redis Caching', level: 82, experience: '1.5+ years', highlight: false, description: 'Key-value caching, session storage, pub-sub messaging' }
+      { name: 'MongoDB', level: 90, experience: 'Core Focus', highlight: true, description: 'NoSQL architecture, BSON document modeling, CRUD operations' },
+      { name: 'Mongoose ODM', level: 90, experience: 'Proficient', highlight: true, description: 'Schemas, models, validation, middleware, population' },
+      { name: 'Aggregation & Queries', level: 85, experience: 'Hands-on Projects', highlight: true, description: '$match, $group, $lookup, sorting, filtering, and indexing' },
+      { name: 'MongoDB Atlas', level: 88, experience: 'Hands-on Projects', highlight: false, description: 'Cloud database clusters, network access, connection strings' },
+      { name: 'Relational SQL Basics', level: 78, experience: 'Academic Foundation', highlight: false, description: 'Tables, keys, JOIN concepts, basic relational modeling' }
     ]
   },
   {
     title: 'DevOps & Development Tools',
     description: 'Version control, automated builds, testing, and modern cloud deployment environments.',
     skills: [
-      { name: 'Git & GitHub', level: 94, experience: '4+ years', highlight: true, description: 'Branching strategies, PR reviews, merge conflict resolution, CI actions' },
-      { name: 'Postman & API Testing', level: 92, experience: '3+ years', highlight: true, description: 'Automated test scripts, environment variables, documentation' },
-      { name: 'Vite & Webpack', level: 90, experience: '3+ years', highlight: false, description: 'Fast HMR, bundle optimization, tree shaking, plugins' },
-      { name: 'Docker & Containers', level: 80, experience: '2+ years', highlight: false, description: 'Dockerfiles, multi-stage builds, containerized MERN setups' },
-      { name: 'Cloud Deployment', level: 88, experience: '3+ years', highlight: false, description: 'Vercel, Render, Railway, AWS EC2 / Cloud Run, Netlify' },
-      { name: 'Linux / Bash Scripting', level: 86, experience: '3+ years', highlight: false, description: 'Server administration, SSH, environment configurations' }
+      { name: 'Git & GitHub', level: 90, experience: 'Daily Use', highlight: true, description: 'Commits, branch workflows, pull requests, issue tracking' },
+      { name: 'Postman & API Testing', level: 90, experience: 'Proficient', highlight: true, description: 'Endpoint testing, header validation, automated requests' },
+      { name: 'Vite & Tooling', level: 88, experience: 'Proficient', highlight: false, description: 'Fast dev server, bundle builds, modern toolchains' },
+      { name: 'Cloud Deployment', level: 85, experience: 'Hands-on Projects', highlight: false, description: 'Vercel, Render, Cloud Run, GitHub Pages' },
+      { name: 'Linux / Bash Basics', level: 82, experience: 'Practical Application', highlight: false, description: 'Command line terminal navigation, npm scripts, git CLI' }
     ]
   }
 ];
@@ -198,9 +196,9 @@ const initialReviews: Review[] = [
   {
     _id: 'rev_01',
     name: 'David Reynolds',
-    role: 'Engineering Director',
-    company: 'Apex Cloud Solutions',
-    content: 'Suhail is one of the most reliable MERN developers I have had the privilege to work with. He architected our Express backend and MongoDB aggregation pipelines with phenomenal speed and precision. His clean UI work with React and Tailwind made our client presentations seamless.',
+    role: 'Tech Mentor & Senior Engineer',
+    company: 'Open Source Community',
+    content: "Suhail's ability to quickly grasp full-stack concepts and build complete end-to-end applications in React and Express is remarkable. His code is clean, modular, and he shows great curiosity and dedication to learning best practices.",
     rating: 5,
     date: 'February 2026',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&q=80'
@@ -208,9 +206,9 @@ const initialReviews: Review[] = [
   {
     _id: 'rev_02',
     name: 'Sarah Chen',
-    role: 'Product Lead',
-    company: 'Velocity Labs',
-    content: 'Working with Suhail was effortless. He has an intuitive grasp of both frontend reactivity and robust backend data handling. He turned complex MongoDB multi-collection queries into snappy API responses under 30ms. Highly recommended!',
+    role: 'Project Collaborator',
+    company: 'Web Developers Guild',
+    content: 'Collaborating with Suhail on MERN stack projects has been fantastic. He tackled the MongoDB schema and REST API endpoints with precision, delivering a responsive user experience with great attention to detail.',
     rating: 5,
     date: 'January 2026',
     avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=160&q=80'
@@ -218,9 +216,9 @@ const initialReviews: Review[] = [
   {
     _id: 'rev_03',
     name: 'Marcus Vance',
-    role: 'Founder & CEO',
-    company: 'NextGen Digital',
-    content: 'Suhail built our MVP from scratch in record time. From initial schema modeling in MongoDB to pixel-perfect responsive Tailwind pages that look gorgeous on both mobile and 4K displays, he exceeded all expectations.',
+    role: 'Startup Founder & Reviewer',
+    company: 'NextGen Projects',
+    content: 'Suhail built a responsive, modern web application with impressive enthusiasm and reliability. He is a fast learner, communicates proactively, and has a strong foundation across both frontend and backend.',
     rating: 5,
     date: 'December 2025',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80'

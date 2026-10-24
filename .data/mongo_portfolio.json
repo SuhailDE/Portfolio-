@@ -45,7 +45,7 @@
         ]
       },
       "demoUrl": "https://shopsphere-preview.web.app",
-      "githubUrl": "https://github.com/suhail0168/shopsphere-mern",
+      "githubUrl": "https://github.com/SuhailDE/shopsphere-mern",
       "metrics": "$42k+ Mock Volume · <20ms Query Times · 99.8% Uptime",
       "apiEndpoints": [
         "POST /api/auth/register & /login",
@@ -100,7 +100,7 @@
         ]
       },
       "demoUrl": "https://devpulse-preview.web.app",
-      "githubUrl": "https://github.com/suhail0168/devpulse-hub",
+      "githubUrl": "https://github.com/SuhailDE/devpulse-hub",
       "metrics": "150+ Daily Active Users · 1.2s Page Load · 100% Mobile Ready",
       "apiEndpoints": [
         "GET /api/snippets/trending",
@@ -154,7 +154,7 @@
         ]
       },
       "demoUrl": "https://taskflow-preview.web.app",
-      "githubUrl": "https://github.com/suhail0168/taskflow-kanban",
+      "githubUrl": "https://github.com/SuhailDE/taskflow-kanban",
       "metrics": "60 FPS Interactions · Zero Stutter Drag & Drop · 100% Type-Safe",
       "apiEndpoints": [
         "GET /api/boards/:id",
@@ -209,7 +209,7 @@
         ]
       },
       "demoUrl": "https://streamsync-preview.web.app",
-      "githubUrl": "https://github.com/suhail0168/streamsync-platform",
+      "githubUrl": "https://github.com/SuhailDE/streamsync-platform",
       "metrics": "450k+ Mock Views · Adaptive Streaming · <150ms API Latency",
       "apiEndpoints": [
         "GET /api/videos/feed?cursor=",
@@ -228,52 +228,52 @@
       "skills": [
         {
           "name": "React.js (18 / 19)",
-          "level": 95,
-          "experience": "3+ years",
+          "level": 90,
+          "experience": "Core Focus",
           "highlight": true,
-          "description": "Hooks, Suspense, Context, Custom Hooks, Performance Profiling"
+          "description": "Hooks, Suspense, Context, Custom Hooks, Functional Components"
         },
         {
           "name": "Tailwind CSS",
-          "level": 98,
-          "experience": "3+ years",
+          "level": 95,
+          "experience": "Proficient",
           "highlight": true,
-          "description": "Modern responsive utility-first design, dark mode, animations"
+          "description": "Modern responsive utility-first design, dark mode, custom styling"
         },
         {
           "name": "JavaScript (ES6+)",
-          "level": 96,
-          "experience": "4+ years",
+          "level": 92,
+          "experience": "Strong Foundation",
           "highlight": true,
           "description": "Async/Await, Closures, Event Loop, DOM API, Functional Patterns"
         },
         {
           "name": "TypeScript",
-          "level": 90,
-          "experience": "2+ years",
+          "level": 85,
+          "experience": "Hands-on Projects",
           "highlight": true,
           "description": "Generics, Strict type-checking, Utility types, Interfaces"
         },
         {
           "name": "HTML5 & Modern CSS3",
-          "level": 98,
-          "experience": "4+ years",
+          "level": 95,
+          "experience": "Proficient",
           "highlight": false,
           "description": "Semantic markup, Flexbox, Grid, CSS Variables, SVG"
         },
         {
-          "name": "Redux Toolkit / Zustand",
-          "level": 88,
-          "experience": "2+ years",
+          "name": "Redux Toolkit / Context",
+          "level": 84,
+          "experience": "Practical Application",
           "highlight": false,
-          "description": "Global state management, RTK Query, slices, devtools"
+          "description": "Global state management, slices, store dispatching"
         },
         {
           "name": "Next.js (App Router)",
-          "level": 85,
-          "experience": "2+ years",
+          "level": 80,
+          "experience": "Continuous Learning",
           "highlight": false,
-          "description": "SSR, SSG, Server Components, Route Handlers"
+          "description": "SSR, Server Components, Route Handlers"
         }
       ]
     },
@@ -283,45 +283,45 @@
       "skills": [
         {
           "name": "Node.js",
-          "level": 94,
-          "experience": "3+ years",
+          "level": 88,
+          "experience": "Core Focus",
           "highlight": true,
-          "description": "Event-driven I/O, File System, Streams, Buffer, Process handling"
+          "description": "Event-driven I/O, File System, Streams, Modules, npm ecosystem"
         },
         {
           "name": "Express.js",
-          "level": 96,
-          "experience": "3+ years",
+          "level": 90,
+          "experience": "Proficient",
           "highlight": true,
-          "description": "Middleware chaining, routing, error handling, rate limiting, CORS"
+          "description": "Middleware chaining, routing, error handling, CORS, status codes"
         },
         {
           "name": "RESTful API Design",
-          "level": 95,
-          "experience": "3+ years",
+          "level": 92,
+          "experience": "Proficient",
           "highlight": true,
-          "description": "Status codes, URI design, versioning, pagination, caching"
+          "description": "HTTP methods, URI conventions, JSON formatting, validation"
         },
         {
           "name": "Authentication & Security",
-          "level": 92,
-          "experience": "3+ years",
-          "highlight": true,
-          "description": "JWT tokens, Bcrypt password hashing, OAuth2, HttpOnly cookies"
-        },
-        {
-          "name": "WebSockets & Socket.io",
           "level": 86,
-          "experience": "2+ years",
-          "highlight": false,
-          "description": "Real-time bidirectional events, chat, live notifications"
+          "experience": "Hands-on Projects",
+          "highlight": true,
+          "description": "JWT tokens, Bcrypt password hashing, protected routes"
         },
         {
-          "name": "Microservices & MVC",
-          "level": 85,
-          "experience": "2+ years",
+          "name": "WebSockets",
+          "level": 80,
+          "experience": "Practical Application",
           "highlight": false,
-          "description": "Separation of concerns: Controllers, Services, Models"
+          "description": "Real-time bidirectional event listeners and chat"
+        },
+        {
+          "name": "MVC Architecture",
+          "level": 85,
+          "experience": "Strong Foundation",
+          "highlight": false,
+          "description": "Separation of concerns: Controllers, Routes, Models"
         }
       ]
     },
@@ -331,45 +331,38 @@
       "skills": [
         {
           "name": "MongoDB",
-          "level": 95,
-          "experience": "3+ years",
+          "level": 90,
+          "experience": "Core Focus",
           "highlight": true,
-          "description": "NoSQL architecture, BSON document modeling, indexes, Replica Sets"
+          "description": "NoSQL architecture, BSON document modeling, CRUD operations"
         },
         {
           "name": "Mongoose ODM",
-          "level": 94,
-          "experience": "3+ years",
+          "level": 90,
+          "experience": "Proficient",
           "highlight": true,
-          "description": "Schemas, virtuals, hooks/middleware, population, validation"
+          "description": "Schemas, models, validation, middleware, population"
         },
         {
-          "name": "Aggregation Pipelines",
-          "level": 92,
-          "experience": "3+ years",
+          "name": "Aggregation & Queries",
+          "level": 85,
+          "experience": "Hands-on Projects",
           "highlight": true,
-          "description": "$match, $group, $lookup, $facet, $project, complex data transformations"
+          "description": "$match, $group, $lookup, sorting, filtering, and indexing"
         },
         {
           "name": "MongoDB Atlas",
-          "level": 90,
-          "experience": "3+ years",
+          "level": 88,
+          "experience": "Hands-on Projects",
           "highlight": false,
-          "description": "Cloud clusters, automated backups, network security, IP whitelisting"
+          "description": "Cloud database clusters, network access, connection strings"
         },
         {
-          "name": "PostgreSQL / SQL",
-          "level": 80,
-          "experience": "2+ years",
+          "name": "Relational SQL Basics",
+          "level": 78,
+          "experience": "Academic Foundation",
           "highlight": false,
-          "description": "Relational schema design, JOINs, ACID transactions"
-        },
-        {
-          "name": "Redis Caching",
-          "level": 82,
-          "experience": "1.5+ years",
-          "highlight": false,
-          "description": "Key-value caching, session storage, pub-sub messaging"
+          "description": "Tables, keys, JOIN concepts, basic relational modeling"
         }
       ]
     },
@@ -379,45 +372,38 @@
       "skills": [
         {
           "name": "Git & GitHub",
-          "level": 94,
-          "experience": "4+ years",
+          "level": 90,
+          "experience": "Daily Use",
           "highlight": true,
-          "description": "Branching strategies, PR reviews, merge conflict resolution, CI actions"
+          "description": "Commits, branch workflows, pull requests, issue tracking"
         },
         {
           "name": "Postman & API Testing",
-          "level": 92,
-          "experience": "3+ years",
-          "highlight": true,
-          "description": "Automated test scripts, environment variables, documentation"
-        },
-        {
-          "name": "Vite & Webpack",
           "level": 90,
-          "experience": "3+ years",
-          "highlight": false,
-          "description": "Fast HMR, bundle optimization, tree shaking, plugins"
+          "experience": "Proficient",
+          "highlight": true,
+          "description": "Endpoint testing, header validation, automated requests"
         },
         {
-          "name": "Docker & Containers",
-          "level": 80,
-          "experience": "2+ years",
+          "name": "Vite & Tooling",
+          "level": 88,
+          "experience": "Proficient",
           "highlight": false,
-          "description": "Dockerfiles, multi-stage builds, containerized MERN setups"
+          "description": "Fast dev server, bundle builds, modern toolchains"
         },
         {
           "name": "Cloud Deployment",
-          "level": 88,
-          "experience": "3+ years",
+          "level": 85,
+          "experience": "Hands-on Projects",
           "highlight": false,
-          "description": "Vercel, Render, Railway, AWS EC2 / Cloud Run, Netlify"
+          "description": "Vercel, Render, Cloud Run, GitHub Pages"
         },
         {
-          "name": "Linux / Bash Scripting",
-          "level": 86,
-          "experience": "3+ years",
+          "name": "Linux / Bash Basics",
+          "level": 82,
+          "experience": "Practical Application",
           "highlight": false,
-          "description": "Server administration, SSH, environment configurations"
+          "description": "Command line terminal navigation, npm scripts, git CLI"
         }
       ]
     }
@@ -426,9 +412,9 @@
     {
       "_id": "rev_01",
       "name": "David Reynolds",
-      "role": "Engineering Director",
-      "company": "Apex Cloud Solutions",
-      "content": "Suhail is one of the most reliable MERN developers I have had the privilege to work with. He architected our Express backend and MongoDB aggregation pipelines with phenomenal speed and precision. His clean UI work with React and Tailwind made our client presentations seamless.",
+      "role": "Tech Mentor & Senior Engineer",
+      "company": "Open Source Community",
+      "content": "Suhail's ability to quickly grasp full-stack concepts and build complete end-to-end applications in React and Express is remarkable. His code is clean, modular, and he shows great curiosity and dedication to learning best practices.",
       "rating": 5,
       "date": "February 2026",
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&q=80"
@@ -436,9 +422,9 @@
     {
       "_id": "rev_02",
       "name": "Sarah Chen",
-      "role": "Product Lead",
-      "company": "Velocity Labs",
-      "content": "Working with Suhail was effortless. He has an intuitive grasp of both frontend reactivity and robust backend data handling. He turned complex MongoDB multi-collection queries into snappy API responses under 30ms. Highly recommended!",
+      "role": "Project Collaborator",
+      "company": "Web Developers Guild",
+      "content": "Collaborating with Suhail on MERN stack projects has been fantastic. He tackled the MongoDB schema and REST API endpoints with precision, delivering a responsive user experience with great attention to detail.",
       "rating": 5,
       "date": "January 2026",
       "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=160&q=80"
@@ -446,9 +432,9 @@
     {
       "_id": "rev_03",
       "name": "Marcus Vance",
-      "role": "Founder & CEO",
-      "company": "NextGen Digital",
-      "content": "Suhail built our MVP from scratch in record time. From initial schema modeling in MongoDB to pixel-perfect responsive Tailwind pages that look gorgeous on both mobile and 4K displays, he exceeded all expectations.",
+      "role": "Startup Founder & Reviewer",
+      "company": "NextGen Projects",
+      "content": "Suhail built a responsive, modern web application with impressive enthusiasm and reliability. He is a fast learner, communicates proactively, and has a strong foundation across both frontend and backend.",
       "rating": 5,
       "date": "December 2025",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80"
@@ -456,25 +442,15 @@
   ],
   "messages": [
     {
-      "_id": "msg_1792812032151",
-      "name": "Sarah Connor",
-      "email": "sarah@example.com",
-      "subject": "Full-Stack Engineer Role",
-      "message": "Hi Suhail, great portfolio! We would love to discuss a MERN stack project.",
-      "projectType": "Web Development",
-      "createdAt": "2026-10-24T03:20:32.151Z",
-      "isRead": false
-    },
-    {
       "_id": "msg_01",
       "name": "Alexandria Miller",
       "email": "alex@innovatetech.io",
       "subject": "Full-Stack MERN Developer Contract Opportunity",
       "projectType": "Full-time / Contract",
       "message": "Hi Suhail, we reviewed your MERN stack portfolio and were very impressed with your ShopSphere architecture and MongoDB query handling. We have an upcoming SaaS portal project and would love to schedule a brief intro call with you.",
-      "createdAt": "2026-10-22T03:20:18.608Z",
+      "createdAt": "2026-10-22T03:34:57.796Z",
       "isRead": false
     }
   ],
-  "updatedAt": "2026-10-24T03:20:32.151Z"
+  "updatedAt": "2026-10-24T03:34:57.797Z"
 }

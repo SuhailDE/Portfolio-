@@ -17,7 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ serverStatus, onOpenInbox, unrea
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'about', 'skills', 'projects', 'experience', 'contact'];
+      const sections = ['home', 'about', 'skills', 'projects', 'contact'];
       const scrollPosition = window.scrollY + 120;
 
       for (const section of sections) {
@@ -42,7 +42,6 @@ export const Navbar: React.FC<NavbarProps> = ({ serverStatus, onOpenInbox, unrea
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Projects', href: '#projects', id: 'projects' },
     { label: 'Skills', href: '#skills', id: 'skills' },
-    { label: 'Experience', href: '#experience', id: 'experience' },
     { label: 'Contact Me', href: '#contact', id: 'contact' },
   ];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Zap, Server, Database, CheckCircle, FileText, Mail, MapPin } from 'lucide-react';
+import { Layers, Zap, Server, Database, CheckCircle, FileText, Mail, MapPin, Rocket, BookOpen } from 'lucide-react';
 
 interface AboutProps {
   onContactClick: () => void;
@@ -10,31 +10,31 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
   const pillars = [
     {
       icon: <Layers className="w-5 h-5 text-cyan-400" />,
-      title: 'Frontend React Architecture',
-      description: 'Building reactive interfaces with modern React 19, hooks, component reusability, and lightning-fast Tailwind CSS utility layouts.'
+      title: 'Modern React & Tailwind UI',
+      description: 'Crafting responsive user interfaces with React 19, functional hooks, clean component state, and utility-first Tailwind CSS.'
     },
     {
       icon: <Server className="w-5 h-5 text-cyan-400" />,
-      title: 'Node.js & Express Backends',
-      description: 'Designing modular REST APIs, secure JWT authentication flows, request validation, error-handling middleware, and CORS security.'
+      title: 'Express & Node.js REST APIs',
+      description: 'Structuring clean API route handlers, JSON request validation, error-handling middleware, and JWT authentication.'
     },
     {
       icon: <Database className="w-5 h-5 text-cyan-400" />,
-      title: 'MongoDB & Data Modeling',
-      description: 'Architecting NoSQL BSON document models, compound indexes, aggregation pipelines, and atomic transactions with Mongoose ODM.'
+      title: 'MongoDB Document Modeling',
+      description: 'Designing NoSQL schemas with Mongoose ODM, understanding document relationships, compound indexes, and queries.'
     },
     {
-      icon: <Zap className="w-5 h-5 text-cyan-400" />,
-      title: 'Responsive & Accessible UX',
-      description: 'Obsessed with fluid responsive layouts on mobile, tablet, and 4K desktops with zero layout shifts and sub-100ms interactions.'
+      icon: <Rocket className="w-5 h-5 text-cyan-400" />,
+      title: 'Continuous Learner & Builder',
+      description: 'Self-motivated developer constantly reading documentation, building real apps, and eager to grow rapidly inside an agile engineering team.'
     }
   ];
 
   const metrics = [
-    { value: '3+', label: 'Years Experience', detail: 'Hands-on Full-Stack Building' },
-    { value: '24+', label: 'Projects Completed', detail: 'SPAs, APIs & Dashboards' },
-    { value: '<50ms', label: 'Average Query Time', detail: 'Optimized MongoDB Indexes' },
-    { value: '100%', label: 'Responsive Testing', detail: 'Mobile & Desktop Verified' }
+    { value: '100%', label: 'Driven & Hungry', detail: 'Rapid Learner & Dedicated Coder' },
+    { value: '4+', label: 'Full-Stack Apps', detail: 'End-to-End MERN Projects' },
+    { value: '<50ms', label: 'API Query Speed', detail: 'Optimized MongoDB Queries' },
+    { value: 'Mobile', label: 'Responsive First', detail: 'Tested on Desktop & Phone' }
   ];
 
   return (
@@ -46,10 +46,10 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
             About Suhail Hossain
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
-            Passionate MERN Engineer Building Scalable Web Products
+            Aspiring MERN Developer Driven by Building Real Projects
           </h2>
           <p className="text-slate-400 text-base sm:text-lg leading-relaxed">
-            I specialize in transforming intricate product ideas into performant, elegant digital systems. With deep expertise across the complete MERN stack, I bridge the gap between intuitive user design and resilient backend architecture.
+            I am an ambitious, entry-level full-stack web developer passionate about the JavaScript & TypeScript ecosystem. I love taking projects from an empty terminal to a fully functioning, responsive web application.
           </p>
         </div>
 
@@ -59,10 +59,10 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
           <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
             <div className="space-y-4 text-slate-300 leading-relaxed text-sm sm:text-base">
               <p>
-                My development workflow centers around building clean, maintainable systems. Whether designing complex data schemas in <span className="text-cyan-400 font-medium">MongoDB</span>, crafting bulletproof RESTful micro-endpoints in <span className="text-cyan-400 font-medium">Express & Node.js</span>, or constructing responsive component hierarchies in <span className="text-cyan-400 font-medium">React & Tailwind</span>, I focus on performance, accessibility, and clean abstractions.
+                As an entry-level developer, I focus on strong fundamentals and practical execution. Rather than just following tutorials, I learn by building complete applications—connecting <span className="text-cyan-400 font-medium">React</span> frontends with <span className="text-cyan-400 font-medium">Node.js and Express</span> backends, and persisting real data in <span className="text-cyan-400 font-medium">MongoDB</span>.
               </p>
               <p>
-                Having delivered enterprise dashboards, e-commerce marketplaces, and real-time collaboration platforms, I adhere to strict code-review guidelines, automated validation, and mobile-first responsiveness.
+                I am actively seeking an entry-level software engineer, junior web developer, or internship role where I can bring my work ethic, enthusiasm, and fresh perspective to a collaborative team while continuing to absorb best practices from senior engineers.
               </p>
             </div>
 
@@ -94,25 +94,32 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">Suhail Hossain</h3>
-                  <p className="text-xs text-cyan-400 font-medium">Full-Stack MERN Developer</p>
+                  <p className="text-xs text-cyan-400 font-medium">Junior / Entry-Level MERN Developer</p>
                   <div className="flex items-center gap-1.5 mt-1 text-xs text-slate-400">
                     <MapPin className="w-3.5 h-3.5 text-slate-500" />
-                    <span>Global Remote / Worldwide</span>
+                    <span>Open to Remote & On-Site Roles</span>
                   </div>
                 </div>
               </div>
 
               <div className="space-y-3 py-4 border-y border-slate-800/80 text-xs sm:text-sm">
                 <div className="flex justify-between items-center">
+                  <span className="text-slate-400">Career Level</span>
+                  <span className="text-cyan-400 font-medium flex items-center gap-1">
+                    <BookOpen className="w-3.5 h-3.5" />
+                    Entry-Level / Junior
+                  </span>
+                </div>
+                <div className="flex justify-between items-center">
                   <span className="text-slate-400">Availability</span>
                   <span className="text-emerald-400 font-medium flex items-center gap-1">
                     <CheckCircle className="w-3.5 h-3.5" />
-                    Available for hire
+                    Ready to Start Immediately
                   </span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-slate-400">Primary Stack</span>
-                  <span className="text-slate-200 font-mono">React · Node · Mongo · Express</span>
+                  <span className="text-slate-200 font-mono">React · Node · Express · Mongo</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-slate-400">Direct Email</span>
@@ -123,10 +130,6 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
                     suhail0168@gmail.com
                   </a>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Code Architecture</span>
-                  <span className="text-slate-200">Layered MVC / REST</span>
-                </div>
               </div>
             </div>
 
@@ -136,14 +139,14 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
                 className="flex-1 py-2.5 px-4 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors shadow-md shadow-cyan-500/20"
               >
                 <Mail className="w-4 h-4" />
-                <span>Message Me</span>
+                <span>Get in Touch</span>
               </button>
               <button
                 onClick={onViewProjects}
                 className="py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-colors"
               >
                 <FileText className="w-4 h-4" />
-                <span>Explore Works</span>
+                <span>View My Projects</span>
               </button>
             </div>
           </div>

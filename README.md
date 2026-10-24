@@ -35,10 +35,8 @@
   - Deep-dive architectural specs modal showing data models, API endpoints, and live/source links.
 - **Skills & Technical Matrix**:
   - Interactive tabs across Frontend, Backend, Databases, and DevOps with proficiency indicators.
-- **Career Timeline & Credentials**:
-  - Verified work milestones, education, and MongoDB Certified Developer credentials.
 - **Endorsements & Working Recommendation Submission**:
-  - Verified client feedback and interactive review submission form.
+  - Collaborator and mentor feedback with interactive review submission form.
 - **Interactive Contact Section**:
   - Working message submission directly to the MongoDB backend with confetti celebrations and 1-click email copy.
 

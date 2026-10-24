@@ -31,13 +31,13 @@ async function startServer() {
       email: 'suhail0168@gmail.com',
       github: 'https://github.com/SuhailDE',
       linkedin: 'https://linkedin.com/in/suhail-hossain',
-      bio: 'Full-Stack MERN developer dedicated to crafting modern, responsive web applications with clean UI, robust backend architecture, and smooth user experiences.',
-      experienceYears: '3+ Years',
-      availability: 'Open to opportunities (Full-time / Contract)',
+      bio: 'Enthusiastic entry-level Full-Stack MERN developer dedicated to crafting modern, responsive web applications with clean UI, robust backend architecture, and smooth user experiences.',
+      experienceYears: 'Entry-Level / Project-Driven',
+      availability: 'Open to opportunities (Junior / Entry-Level / Internship / Freelance)',
       stats: {
-        projectsCompleted: 24,
+        projectsCompleted: '4+ Major Apps',
         clientSatisfaction: '100%',
-        githubCommits: '1,450+',
+        githubCommits: '500+ Commits',
         codeUptime: '99.9%'
       }
     });
