@@ -160,7 +160,7 @@ export const Contact: React.FC<ContactProps> = ({ onMessageSent, onOpenInbox, un
                     <span>GitHub</span>
                   </a>
                   <a
-                    href="https://linkedin.com/in/suhail-hossain"
+                    href="https://www.linkedin.com/in/suhail-hossain-4a9980343/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex-1 py-2.5 px-3 rounded-xl bg-slate-950 border border-slate-800 hover:border-slate-700 hover:bg-slate-900 text-slate-300 hover:text-white text-xs font-medium flex items-center justify-center gap-2 transition-all"

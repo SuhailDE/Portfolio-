@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com/in/suhail-hossain"
+              href="https://www.linkedin.com/in/suhail-hossain-4a9980343/"
               target="_blank"
               rel="noreferrer"
               className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-cyan-400 transition-colors"

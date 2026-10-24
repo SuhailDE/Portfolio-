@@ -130,6 +130,17 @@ export const About: React.FC<AboutProps> = ({ onContactClick, onViewProjects }) 
                     suhail0168@gmail.com
                   </a>
                 </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-slate-400">LinkedIn</span>
+                  <a
+                    href="https://www.linkedin.com/in/suhail-hossain-4a9980343/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-cyan-400 hover:underline font-mono truncate max-w-[200px]"
+                  >
+                    suhail-hossain-4a9980343
+                  </a>
+                </div>
               </div>
             </div>
 

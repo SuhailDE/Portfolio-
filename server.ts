@@ -30,7 +30,7 @@ async function startServer() {
       location: 'Available Globally / Remote',
       email: 'suhail0168@gmail.com',
       github: 'https://github.com/SuhailDE',
-      linkedin: 'https://linkedin.com/in/suhail-hossain',
+      linkedin: 'https://www.linkedin.com/in/suhail-hossain-4a9980343/',
       bio: 'Enthusiastic entry-level Full-Stack MERN developer dedicated to crafting modern, responsive web applications with clean UI, robust backend architecture, and smooth user experiences.',
       experienceYears: 'Entry-Level / Project-Driven',
       availability: 'Open to opportunities (Junior / Entry-Level / Internship / Freelance)',

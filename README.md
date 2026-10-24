@@ -102,4 +102,5 @@ npm start
 
 **Suhail Hossain**
 - GitHub: [@SuhailDE](https://github.com/SuhailDE)
+- LinkedIn: [suhail-hossain-4a9980343](https://www.linkedin.com/in/suhail-hossain-4a9980343/)
 - Email: [suhail0168@gmail.com](mailto:suhail0168@gmail.com)
